@@ -7,7 +7,16 @@ authors = [
     { name = "xzqbear", email = "909117948@qq.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "numpy>=2.4.6",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/xiong-ZH-zq/scikit-gp"
+Repository = "https://github.com/xiong-ZH-zq/scikit-gp"
+Issues = "https://github.com/xiong-ZH-zq/scikit-gp/issues"
 
 [build-system]
 requires = ["uv_build>=0.12.24,<0.13.0"]
@@ -15,3 +24,9 @@ build-backend = "uv_build"
 
 [tool.uv.build-backend]
 module-name = "skgp"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
