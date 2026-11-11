@@ -1,5 +1,5 @@
 # scikit-gp
-A Python Package implementing Gaussian Process algorithms that are compatible with [scikit-learn](https://scikit-learn.org/stable/index.html). 
+A Python Package implementing Gaussian Process algorithms that are compatible with [scikit-learn](https://scikit-learn.org/stable/index.html).
 
 This package aims to implement classic Gaussian process models like Gaussian process regressors and classifiers.
 
